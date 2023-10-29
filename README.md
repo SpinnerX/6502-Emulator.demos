@@ -30,7 +30,7 @@ needed to look at how the 6502 works, from hardware working with software. Inclu
 Entry point is the starting phase of implementing the renderer using OpenGL, glfw, etc. Where I \
 implement utilize (for right now), the renderer to have an immediate tools and interface for helping \
 with debugging and checking if data are being modified, etc. Also marks the starting point of the \
-renderers development. \
+renderers development.
 
     1.1. Displaying memory viewer on window \
         - What this means is that, when we open up the renderer, we should first be able to display the \
