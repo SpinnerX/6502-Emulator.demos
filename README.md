@@ -21,3 +21,30 @@ being a thing. Meaning that since, the 6502 Emulator is in still the early phase
 needed to look at how the 6502 works, from hardware working with software. Including handling external devices connections, and etc.
 
 
+
+
+
+# Plan  (Goal for the rednerer currently)
+
+## 1.) Entry Point
+Entry point is the starting phase of implementing the renderer using OpenGL, glfw, etc. Where I \
+implement utilize (for right now), the renderer to have an immediate tools and interface for helping \
+with debugging and checking if data are being modified, etc. Also marks the starting point of the \
+renderers development. \
+
+    1.1. Displaying memory viewer on window \
+        - What this means is that, when we open up the renderer, we should first be able to display the \
+        memory viewer. \
+        - Verifying Memory Viewer works. \
+        - Do more testing and debugging on interacting with the memory viewer and seeing if data changes in real-time (this is once it works). \
+        - Start to integrate basic thread-safety and parallel processing systems into the renderer. (For sending data continously) \
+    1.2. Sendind data (entry point)
+        - Once verified the memory viewer can be displayed, and UI interaction to the user does not lag as much \
+            then we can look into parallel computing and threading. \
+        - Distributed systems, and parallel computing applications. \
+        - The reason for this, is I am thinking what if we have multiple windows (For now, lets say two). \
+        - How are we going to manage the two windows? While still considering that they may be sending and receiving data continously. \
+        -  This is where we may have to look into parallel computing for references. (though this is a rough draft, so this may change later on) \
+
+
+# This is what I am thinking for now, going to be ading more as time goes on...
