@@ -24,7 +24,7 @@ needed to look at how the 6502 works, from hardware working with software. Inclu
 
 
 
-# Plan  (Goal for the rednerer currently)
+# Plan  (Goal for the renderer currently)
 
 ## 1. Entry Point
 Entry point is the starting phase of implementing the renderer using OpenGL, glfw, etc. Where I \
